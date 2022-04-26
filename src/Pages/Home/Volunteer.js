@@ -6,7 +6,7 @@ const Volunteer = () => {
     const [volData]=useVolunteerData()
     // console.log(volData)
     return (
-        <div className="grid grid-cols-4 gap-8 my-10">
+        <div className="grid grid-cols-4 gap-8 my-5">
            {
                volData.map(data => <VolunteerDetails key={data.id} data={data}></VolunteerDetails>)
            }
