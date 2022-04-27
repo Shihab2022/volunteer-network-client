@@ -11,11 +11,11 @@ const Header = () => {
      
     </button>
     <nav className="md:ml-auto flex flex-wrap text-black text-xl font-mono items-center  justify-center">
-      <Link to='/' className="mr-5  hover:text-gray-900">Home</Link>
+      <Link to='/home' className="mr-5  hover:text-gray-900">Home</Link>
       <Link to='/' className="mr-5  hover:text-gray-900">Donation</Link>
       <Link to='/' className="mr-5  hover:text-gray-900">Events</Link>
       <Link to='/' className="mr-5  hover:text-gray-900">Blog</Link>
-      <Link to='/' className="mr-5 bg-rose-800  px-4 py-2 rounded-sm text-white hover:text-gray-900">Register</Link>
+      <Link to='/register' className="mr-5 bg-rose-800  px-4 py-2 rounded-sm text-white hover:text-gray-900">Register</Link>
     </nav>
    
   </div>
